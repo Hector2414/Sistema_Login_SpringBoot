@@ -36,6 +36,76 @@ public class Usuario {
 			)
 	
 	private Set<Papel> papeis = new HashSet<>();
+
+	
+	
+	
+	
+
+
+	public Usuario() {
+		super();
+	}
+
+
+
+	public Usuario(Long idUsuario, String nomeUsuario, String senha, Set<Papel> papeis) {
+		super();
+		this.idUsuario = idUsuario;
+		this.nomeUsuario = nomeUsuario;
+		this.senha = senha;
+		this.papeis = papeis;
+	}
+
+
+
+	public Long getIdUsuario() {
+		return idUsuario;
+	}
+
+
+
+	public void setIdUsuario(Long idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+
+
+	public String getNomeUsuario() {
+		return nomeUsuario;
+	}
+
+
+
+	public void setNomeUsuario(String nomeUsuario) {
+		this.nomeUsuario = nomeUsuario;
+	}
+
+
+
+	public String getSenha() {
+		return senha;
+	}
+
+
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+
+
+	public Set<Papel> getPapeis() {
+		return papeis;
+	}
+
+
+
+	public void setPapeis(Set<Papel> papeis) {
+		this.papeis = papeis;
+	}
+	
+	
 	
 	
 }
